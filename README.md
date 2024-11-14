@@ -1,13 +1,18 @@
 
 # PRUEBA PHP NATIVO
 
-
+A continuación explicaré brevemente lo que se ha logrado completar de la prueba.
+- Se ha realizado un CRUD funcional de la base de datos permitiendo al usuario editar, leer y eliminar libros.
+- Si se desea eliminar un libro siempre se le preguntará al ususario si está seguro.
+- Los formularios tienen consultas prametrizadas para prevenir vulnerabilidades.
+- La inserción se realiza siempre desde la API mediante el ISBN para prevenir duplicidad en este código.
+- Se tienen en cuenta diversos errores como añadir un ISBN que no existe en la API o añadir uno que ya existe en nuestra DB.
 
 
 
 ## INSTALACIÓN
 
-He tenido problemas con la virtualización de docker y no he podido desplegarlo en este, de etodas formas he dejado ejemplos del dockerfile y el docker-compose.yml.
+He tenido problemas con la virtualización de docker y no he podido desplegarlo en este, de todas formas he dejado ejemplos del dockerfile y el docker-compose.yml.
 
 Por ello he tenido que realizar el proyecto utilizando XAMPP, si desea probarlo de esta manera siga los siguientes pasos.
 
@@ -28,10 +33,13 @@ No he utilizado ninguna librería externa y he decidido hacer este apartado con 
 - ![image](https://github.com/user-attachments/assets/66b622da-c0e9-468b-a80d-3f0e1e7d65ec)
 - ![image](https://github.com/user-attachments/assets/0e317605-3f02-4fa5-87ec-d44da920e48e)
 - ![image](https://github.com/user-attachments/assets/b44c2805-dfc6-462e-b9b6-c456b3f4aaf7)
+  
 El segundo formulario hace una busqueda en la base de datos por nombre, autor o isbn indistintamente.
 - ![image](https://github.com/user-attachments/assets/18ecc684-5bfb-41b6-9bbf-72687773304e)
+  
 El botón de eliminar hace accionar un alert para confirmar q quieres eliminar ese libro.
 - ![image](https://github.com/user-attachments/assets/51e66ee2-0ccd-4f5f-884c-04b0eee9296e)
+  
 Por último, el botón editar nos redirige a una nueva página con un formulario para editar el libro, una vez hecho volverá a la página principal.
 - ![image](https://github.com/user-attachments/assets/ade794f7-7d6f-4559-9bed-ecd71a154232)
 
