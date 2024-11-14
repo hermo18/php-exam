@@ -6,6 +6,7 @@ A continuación explicaré brevemente lo que se ha logrado completar de la prueb
 - Si se desea eliminar un libro siempre se le preguntará al ususario si está seguro.
 - Los formularios tienen consultas prametrizadas para prevenir vulnerabilidades.
 - La inserción se realiza siempre desde la API mediante el ISBN para prevenir duplicidad en este código.
+- La petición a la API se hace mediante CURL.
 - Se tienen en cuenta diversos errores como añadir un ISBN que no existe en la API o añadir uno que ya existe en nuestra DB.
 
 
