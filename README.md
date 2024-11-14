@@ -26,6 +26,7 @@ Por ello he tenido que realizar el proyecto utilizando XAMPP, si desea probarlo 
 
 ## Funcionamiento
 - ![image](https://github.com/user-attachments/assets/79dc30c2-7f01-4aa8-bbd0-e14eb2018467)
+  
 En esta primera imagen puede ver dos formularios y una tabla, la tabla aparecerá siempre de manera predefinida una vez abierto el proyecto.
 El primer formulario pedirá un ISBN, se hará una petición a la API y si devuelve algo lo intentará almacenar los datos en la base de datos en caso de que no exista.
 (He tomado la decisión de almacenar estos datos en vez de la descripción puesto que dependiendo de libros, muchos tenian una estructura de JSON distinta)
